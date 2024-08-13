@@ -1,0 +1,54 @@
+*{margin: 0;
+box-sizing: border-box;
+}
+
+header{
+    height: 139px;
+    background-color: #EFE7CB;
+    width: 100%;
+}
+
+#logo{
+    height: 143px;
+    margin-left: 60px;
+}
+
+#cabecalho{
+list-style: none;
+display: flex;
+gap: 50%;
+font-size: 20px;
+font-family: "Indie Flower", cursive;
+font-weight: bold;
+
+}
+header>div{ display: flex;}
+
+#selecionada{
+    color: #833838;
+}
+
+a{
+ color: black;
+ text-decoration: none;
+
+}
+
+#corpo{
+    background-image: url(fundo.webp);
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color:black;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-size: 50px;
+    padding-top: 350px;
+    padding-left: 150px;
+
+}

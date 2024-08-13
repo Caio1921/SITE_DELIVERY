@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSCA</title>
+    <link rel="stylesheet" href="busca.css">
+</head>
+<body>
+        <header>
+            <div>
+            <img id="logo" src="LOGO.png" alt="">
+
+            <ul id="cabecalho">
+                <li ><a href="index.html">pagina inicial</a></li>
+                <li><a href="quemsomos.html">quem somos</a></li>
+                <li > <a href="contato.html">contato</a></li>
+                <li id="selecionada">busca</li>
+                <li><a href="cadastro.html">cadastro</a></li>
+                <li><a href="pedidos.html">pedidos</a></li>
+            </ul>
+        </div>
+        </header>
+
+     <div id="corpo">
+            <div id="parte1">
+                <h1>Produto mais pesquisado:</h1>
+                <p><img src="PIZZA.jpg" alt=""></p>
+                <p>Pizza Quatros Queijos - TAM G
+                    <br>R$ 78,99</p>
+            </div>
+            <div id="separacao">
+               <hr>
+         
+            </div>
+
+            <div id="parte2">
+                <h1>Reustarante mais pesquisado</h1>
+        
+                <ul id="listaRES">
+                    <li><img src="pizzahut.jpg" alt=""></li>
+                    <li><h1>Pizza Hut</h1></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 id="textoBARRA">🔎 Buscar em todo Turbo Delivery</h1>
+                <P>    <form id="barraDeBUSCA" action="/search" method="GET">
+                    <input type="text" placeholder="" name="q">
+                    <button type="submit">BUSCAR</button>
+                </form></P>
+            </div>
+     </div>
+</body>
+</html>
